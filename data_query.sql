@@ -1,0 +1,6 @@
+SELECT *
+FROM (
+	SELECT NIM, avg(IP)
+	FROM mahasiswa
+)
+WHERE IP >= 10, NIM A24180106
